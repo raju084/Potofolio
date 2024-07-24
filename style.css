@@ -1,0 +1,110 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+header .photo {
+    flex: 1;
+    text-align: center;
+}
+
+header .photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header .header-text {
+    flex: 3;
+    text-align: left;
+    margin-left: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    color: #000;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #555;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    
+    border-bottom: 1px solid #333;
+    padding-bottom: 4px;
+    color: #333;
+    
+}
+
+/* Applying colors to different sections */
+.summary {
+    background-color: #f9e2e4;
+}
+
+.education {
+    background-color: #e2f9f1;
+}
+
+.language {
+    background-color: #e2e9f9;
+}
+
+.technical-skills {
+    background-color: #f9e2e2;
+}
+
+.non-technical-skills {
+    background-color: #e9e2f9;
+}
+
+.hobbies {
+    background-color: #f2e2f9;
+}
+
+.contact {
+    background-color: #f9f2e2;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(136, 231, 199);
+}
+
+ul li {
+    background: white;
+    margin-bottom: 6px;
+    padding: 10px;
+    border-radius: 4px;
+}
